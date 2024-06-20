@@ -74,8 +74,8 @@ class Development:
     GENIUS_API_TOKEN = ""
     RMBG_API = ""
     PREFIX_HANDLER = ["!", "/","$"]
-    SUPPORT_GROUP = "SUPPORT_GROUP"
-    SUPPORT_CHANNEL = "SUPPORT_CHANNEL"
+    SUPPORT_GROUP = "flex_support_chat"
+    SUPPORT_CHANNEL = "flex_bots_news"
     VERSION = "VERSION"
     TIME_ZONE = 'Asia/Kolkata'
     BDB_URI = ""
