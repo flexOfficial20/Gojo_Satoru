@@ -14,8 +14,8 @@ class Config:
     BOT_TOKEN = config("BOT_TOKEN", default=None)
     API_ID = int(config("API_ID", default="123"))
     API_HASH = config("API_HASH", default=None)
-    OWNER_ID = int(config("OWNER_ID", default=1344569458))
-    MESSAGE_DUMP = int(config("MESSAGE_DUMP"))
+    OWNER_ID = int(config("OWNER_ID", default=6584789596))
+    MESSAGE_DUMP = int(config("MESSAGE_DUMP", ""-1002100475470))
     DEV_USERS = [
         int(i)
         for i in config(
@@ -40,13 +40,13 @@ class Config:
     GENIUS_API_TOKEN = config("GENIUS_API",default=None)
     AuDD_API = config("AuDD_API",default=None)
     RMBG_API = config("RMBG_API",default=None)
-    DB_URI = config("DB_URI", default="")
-    DB_NAME = config("DB_NAME", default="gojo_satarou")
+    DB_URI = config("DB_URI", default="mongodb+srv://Mongo1:586637515hshhwfftqu@cluster0.tvy79ai.mongodb.net/?retryWrites=true&w=majority")
+    DB_NAME = config("DB_NAME", default="cluster0")
     BDB_URI = config("BDB_URI",default=None)
     NO_LOAD = config("NO_LOAD", default="").split()
     PREFIX_HANDLER = config("PREFIX_HANDLER", default="/").split()
-    SUPPORT_GROUP = config("SUPPORT_GROUP", default="gojo_bots_network")
-    SUPPORT_CHANNEL = config("SUPPORT_CHANNEL", default="gojo_bots_network")
+    SUPPORT_GROUP = config("SUPPORT_GROUP", default="flex_support_chat")
+    SUPPORT_CHANNEL = config("SUPPORT_CHANNEL", default="flex_bots_news")
     WORKERS = int(config("WORKERS", default=16))
     TIME_ZONE = config("TIME_ZONE",default='Asia/Kolkata')
     BOT_USERNAME = ""
