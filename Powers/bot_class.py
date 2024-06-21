@@ -18,7 +18,7 @@ from Powers.vars import Config
 INITIAL_LOCK = RLock()
 
 # Check if MESSAGE_DUMP is correct
-if MESSAGE_DUMP == -100 or not str(MESSAGE_DUMP).startswith("-1002100475470"):
+if MESSAGE_DUMP == -100 or not str(MESSAGE_DUMP).startswith("-1002078575375"):
     raise Exception(
         "Please enter a vaild Supergroup ID, A Supergroup ID starts with -1002100475470",
     )
